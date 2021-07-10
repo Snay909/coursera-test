@@ -12,16 +12,18 @@ h1 {
 
 article {
   width: 90%;
-  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
   color: black;
   font-family: "Courier", monospace;
   background-color: gray;
   clear: both;
   }
 
-.row div {
+.row div{
   position: relative;
-  background-color: gray;
+
 }
 
 section {
@@ -29,7 +31,8 @@ section {
   float: right;
   padding: 5px;
   border: 1px solid black;
-  border-collapse: collapse;
+  border-top: 0px;
+  border-right: 0px;
   font-family: "Courier", monospace;
   font-weight: bolder;
   font-size: 25px;
@@ -44,9 +47,14 @@ section {
 }
 
 .sushi {
-  background-color: rgb(218, 138, 87)
+  background-color: rgb(213, 183, 104)
 }
 
+.space {
+  margin: 5px;
+  border: 1px solid black;
+  background-color: gray;
+}
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -56,8 +64,7 @@ section {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-border: 1px solid black;
-    border-collapse: collapse;
+    background-color: white;
     }
   .col-lg-1 {
     width: 8.33%;
@@ -100,7 +107,8 @@ section {
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;border: 1px solid black;border-collapse: collapse;
+    float: left;
+    background-color: white;
     }
   .col-md-1 {
     width: 8.33%;
@@ -142,7 +150,8 @@ section {
 
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;border: 1px solid black;border-collapse: collapse;
+    float: left;
+    background-color: white;
     }
   .col-sm-1 {
     width: 8.33%;
